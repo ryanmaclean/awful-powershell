@@ -1,4 +1,4 @@
-# awful-powershell
+# Awful Powershell
 Awful Powershell Scripts I have made in order to help myself in dire times
 
 ## Before Getting Started
