@@ -9,7 +9,7 @@ Import-Module BitsTransfer
 # Stop on errors
 $ErrorActionPreference = "Stop"
 
-$hostfileRemote = https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
+$hostfileRemote = "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts"
 $hostfileLocal = "$PSScriptRoot\hosts.tmp"
 $startTime = Get-Date
 $regex = "/^\s*(#|$)/" # match blank lines or those that start with `#`
